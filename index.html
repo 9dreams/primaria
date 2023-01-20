@@ -8,52 +8,238 @@
   <link rel="stylesheet" href="main.css">
 </head>
   <body>
-    <center><img src="images/homepage.png" class="img-fluid" alt="..."></center>
-    <center><nav class="navbar navbar-expand-lg bg-light" >
-        <div class="container-fluid" style="margin-left: 37% ; ">
-            
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               Istituto
-              </a>
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Plessi
-              </a>
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Offerta formtiva
-              </a>
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Studenti e genitori
-              </a>
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               Docenti e ATA
-              </a>
-              
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+    <br>
+    <br>
+    <br>
+    <img src="images/SCUOLA-LOGO-1.png" class="img-fluid" alt="...">
+    <br>
+    <br>
+    
+    <nav class="navbar bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Scuola  Primaria | Secondaria di 1° grado  | EDMONDO DE AMICIS  </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Scuola  Primaria | Secondaria di 1° grado</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Istituto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Plessi</a>
                 
-               
-              
-              <li class="nav-item">
-                <a class="nav-link" href="#">News</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Contatti
-                   </a
-                
-                
+                  Offerta formativa
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Progetti d'istituto</a></li>
+                  <li><a class="dropdown-item" href="#">Curriculi scuola primaria doc</a></li>
+                  <li>
+                   
+                  </li>
+                  <li><a class="dropdown-item" href="#">piano annuale per l'inclusione</a></li>
+                </ul>
               </li>
             </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Cerca nel nostro sito" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Cerca </button>
+            </form>
           </div>
         </div>
-      </nav></center>
-     <div class="container">
-       
-     </div>
+      </div>
+    </nav>
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/WhatsApp-Image-2022-04-11-at-14.34.41.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/WhatsApp-Image-2022-03-03-at-12.03.58.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/iscrizione-cerioli.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <hr>
+    <br>
+    <br>
+    <div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-4">
+            <div class="card" style="width: 18rem;">
+              <img src="images/OpenDay.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Prenota il tuo open day</h5>
+                <p class="card-text">Clicca il tasto sottostante per prenotare  il giorno in cui verrai a visitare la nostra fantastica scuola !</p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <a href="#" class="btn btn-primary">Premi qui</a>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem;">
+              <img src="images/pedibus.png" class="card-img-top" alt="...">
+              <hr>
+              <div class="card-body">
+                <h5 class="card-title">Il Pedibus , il modo ecologico di andare a scuola </h5>
+                <p class="card-text">Un'alternativa per andare insieme a scuola</p>
+                <a href="#" class="btn btn-primary">Premi qui</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem;">
+              <img src="images/cover_brochure_cvv_per_slide.png" class="card-img-top" alt="...">
+            
+              <div class="card-body">
+                <h5 class="card-title">Registro Elettronico per le famiglie</h5>
+                <p class="card-text">La Segreteria dell'istituto consegna all'inizio dell'anno scolastico, alle Famiglie che non ne sono in possesso, le password per l'accesso al Registro Elettronico.</p>
+                <br>
+                <a href="#" class="btn btn-primary">Premi qui </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<hr>
+<center><h2>Dove ci troviamo </h2></center>
+<center> <div class="mapouter"><div class="gmap_canvas"><iframe
+  width="870" height="518" id="gmap_canvas"
+  src="https://maps.google.com/maps?q=VIA%20BIZZARO&t=&z=13&ie=UTF8&iwloc=&output=embed"
+  frameborder="0" scrolling="no" marginheight="0"
+  marginwidth="0"></iframe><a
+  href="https://123movies-to.org">123movies</a><br><style>.mapouter{position:relative;text-align:right;height:518px;width:870px;}</style><a
+  href="https://www.embedgooglemap.net">html embed google
+  map</a><style>.gmap_canvas
+  {overflow:hidden;background:none!important;height:518px;width:870px;}</style></div></div></center>
+  <hr>
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-white text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>i nostri contatti</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3 text-secondary"></i>Ed mondo de amicis
+          </h6>
+          <p>
+           Vieni a trovarci nella nostra scuola !
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Link utili
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Iscrizioni</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Area studenti</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Area genitori</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Progetto educativo</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contatti</h6>
+          
+            <i class="fas fa-envelope me-3 text-secondary"></i>
+            scuoladeamicis@alice.it
+          </p>
+          <p><i class="fas fa-phone me-3 text-secondary"></i> +39 0421 696956</p>
+          <p><i class="fas fa-print me-3 text-secondary"></i> +39 0421 440590</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+    
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/"></a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>
